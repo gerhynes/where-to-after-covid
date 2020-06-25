@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-starter-leaflet",
-  "title": "Gatsby Starter Leaflet",
-  "description": "A Gatsby starter with Leafet!",
+  "name": "where-to-after-covid",
+  "title": "Where to after Covid?",
+  "description": "A Gatsby travel site with Leafet.",
   "version": "0.2.4",
   "author": {
-    "name": "Colby Fayock",
-    "email": "hello@colbyfayock.com",
-    "url": "https://twitter.com/colbyfayock"
+    "name": "Gerard Hynes",
+    "email": "gkhynes@gmail.com",
+    "url": "https://twitter.com/Gerard_K_Hynes"
   },
   "dependencies": {
     "gatsby": "^2.23.7",
@@ -73,12 +73,12 @@
       "yarn lint"
     ]
   },
-  "homepage": "https://gatsby-starter-leaflet.netlify.app/",
+  "homepage": "https://where-to-after-covid.netlify.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet"
+    "url": "https://github.com/GK-Hynes/where-to-after-covid"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/gatsby-starter-leaflet/issues"
+    "url": "https://github.com/GK-Hynes/where-to-after-covid/issues"
   }
 }

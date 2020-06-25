@@ -1,13 +1,19 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import { Helmet } from "react-helmet";
 
-import { useSiteMetadata } from 'hooks';
+import { useSiteMetadata } from "hooks";
 
-import Layout from 'components/Layout';
-import Container from 'components/Container';
+import Layout from "components/Layout";
+import Container from "components/Container";
 
 const SecondPage = () => {
-  const { companyName, companyUrl, authorName, authorUrl, siteDescription } = useSiteMetadata();
+  const {
+    companyName,
+    companyUrl,
+    authorName,
+    authorUrl,
+    siteDescription
+  } = useSiteMetadata();
 
   return (
     <Layout pageName="about">
@@ -17,15 +23,19 @@ const SecondPage = () => {
       <Container type="content">
         <h1>About</h1>
 
-        <h2>{ companyName }</h2>
-        <p>{ siteDescription }</p>
+        <h2>{companyName}</h2>
+        <p>{siteDescription}</p>
         <p>
           <a href={companyUrl}>View on Github</a>
         </p>
 
         <h2>Created By</h2>
         <p>
-          <a href={authorUrl}>{ authorName }</a>
+          <a href={authorUrl}>{authorName}</a>
+        </p>
+        <p>
+          Based on a starter by{" "}
+          <a href="https://twitter.com/colbyfayock">Colby Fayock</a>
         </p>
       </Container>
     </Layout>
