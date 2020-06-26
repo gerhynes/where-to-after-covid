@@ -1,14 +1,13 @@
 header {
-
   width: 100%;
   color: $white;
-  background-color: $gatsby-purple;
+  background-color: $github-black;
 
   .container {
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
     line-height: 2.5em;
+    padding: 1rem;
   }
 
   ul,
@@ -26,15 +25,14 @@ header {
   }
 
   a {
-    color: lighten($gatsby-purple, 50);
+    color: lighten($github-black, 60);
     text-decoration: none;
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin: 0;
   }
-
 }
