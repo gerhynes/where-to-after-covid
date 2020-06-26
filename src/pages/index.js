@@ -55,6 +55,9 @@ const IndexPage = () => {
             return <li key={id}>{name}</li>;
           })}
         </ul>
+        <h3>
+          Data managed using <a href="https://graphcms.com/">GraphCMS</a>
+        </h3>
       </Container>
     </Layout>
   );
