@@ -7,7 +7,6 @@ header {
     display: flex;
     justify-content: space-between;
     line-height: 2.5em;
-    padding: 1rem;
   }
 
   ul,
@@ -17,17 +16,29 @@ header {
     align-items: center;
   }
 
+  h1 {
+    font-family: $font-handwriting;
+  }
+
   ul {
     justify-content: flex-end;
     list-style: none;
     margin: 0;
     padding: 0;
+
+    li {
+      text-transform: uppercase;
+    }
   }
 
   a {
     color: lighten($github-black, 60);
     text-decoration: none;
     padding: 0 0.5em;
+  }
+
+  a.project-title {
+    color: rgb(255, 187, 14);
   }
 
   p {
